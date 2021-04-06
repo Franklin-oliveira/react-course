@@ -12,7 +12,7 @@ nvm install --lts        # installs the latest LTS node version
 nvm install v14.16.0     # installs any specified version of node
 ```
 
-Along with `Node JS`, `nvm` also installs a compatible version of [npm]() (Node Package Manager)
+Along with `Node JS`, `nvm` also installs a compatible version of `npm` (Node Package Manager)
 
 > **p.s.:** The Instructor recommends any version of node above or equal `v10.15.3`. 
 
