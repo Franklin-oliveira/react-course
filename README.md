@@ -7,9 +7,9 @@ In this repo I'll be following closely this Udemy course on React: [Complete Rea
 To run the material in this course, it is necessary to fulfill some requirements. The first one is to install [Node JS](https://nodejs.org/en/). I'll be doing this with [nvm](https://github.com/nvm-sh/nvm) (Node Version Manager) on Ubuntu 20.04, by running one of the following commands:
 
 ```shell
-nvm install node         # installs the latest node version
-nvm install --lts        # installs the latest LTS node version
-nvm install v14.16.0     # installs any specified version of node
+nvm install node         # install the latest node version
+nvm install --lts        # install the latest LTS node version
+nvm install v14.16.0     # install any specified version of node
 ```
 
 Along with `Node JS`, `nvm` also installs a compatible version of `npm` (Node Package Manager).
