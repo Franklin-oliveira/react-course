@@ -1,6 +1,6 @@
 # basics
 
-This folder contains some lecture notes and projects in section 3 of the course [Complete React Developer in 2021 (w/ Redux, Hooks, GraphQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/), which covers [React](https://reactjs.org/) basics.
+This folder contains some lecture notes and projects presented on section 3 of the course [Complete React Developer in 2021 (w/ Redux, Hooks, GraphQL)](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/), which covers [React](https://reactjs.org/) basics.
 
 ## Content
 - **monsters-rolodex:** basic react app which [...] (add explanation later...)
