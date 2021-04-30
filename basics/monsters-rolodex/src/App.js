@@ -22,6 +22,14 @@ class App extends Component {
   }
 
   render() {
+    
+    // filtering monsters array based on the search box
+    const { monsters, searchField } = this.state;
+    const filteredMonsters = monsters.filter(monster => (
+      monster.name.toLowerCase().includes(searchField.toLowerCase())
+    ))
+    
+
     return (
       <div className="App">
         {/* to ckeck the values right away, add this second argument in the second parameter of setState: () => console.log(this.state)*/}
@@ -31,7 +39,7 @@ class App extends Component {
         onChange={e => 
           this.setState({searchField: e.target.value})}
         />
-        <CardList monsters={this.state.monsters}></CardList>
+        <CardList monsters={filteredMonsters}></CardList>
       </div>
     )
   }
