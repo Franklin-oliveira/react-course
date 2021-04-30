@@ -13,6 +13,12 @@ class App extends Component {
       monsters: [],
       searchField: ''
     }
+
+    // this.handleChange = this.handleChange.bind(this)  // not needed if declaring an arrow function
+  }
+
+  handleChange = (e) => {
+    this.setState({ searchField: e.target.value })
   }
 
   componentDidMount() {
@@ -33,9 +39,11 @@ class App extends Component {
 
     return (
       <div className="App">
+
+        <h1> Monsters Rolodex </h1>
+
         {/* to ckeck the values right away, add this second argument in the second parameter of setState: () => console.log(this.state)*/}
-        <SearchBox placeholder='search monsters' handleChange={e =>
-          this.setState({ searchField: e.target.value })} />
+        <SearchBox placeholder='search monsters' handleChange={this.handleChange} />
         <CardList monsters={filteredMonsters}></CardList>
       </div>
     )
