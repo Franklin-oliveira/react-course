@@ -12,4 +12,5 @@ This folder contains some lecture notes and an initial project presented from se
 - How to fetch content from an API.
 - How to set a new state from a child component using a functional attribute (and set its scope by using the `bind` command or declaring it as an arrow function). 
 - How to handle `React` events and the concept of asynchronous rendering.
+- Which are the `React Lifecycle Methods` and how to use them.
 
