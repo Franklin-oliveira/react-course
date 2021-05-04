@@ -35,4 +35,4 @@ npx create-react-app *name_of_the_app*   # just add the desired name for the app
 
 This command creates a simple `React` app with a basic structure to serve as a starting point for the development of your application. 
 
-For more information, see [Getting Started with Create React App](./getting-started-create-react-app.md).
+For more information, see [Getting Started with Create React App](./basics/getting-started-create-react-app.md).
