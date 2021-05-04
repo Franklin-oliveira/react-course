@@ -22,3 +22,17 @@ Along with `Node JS`, `nvm` also installs a compatible version of `npm` (Node Pa
 > **p.s.:** The Instructor recommends any version of node above or equal `v10.15.3`. 
 
 `nvm` is a very convenient tool to install and manage different versions of Node JS. On file [nvm-cheat-sheet](./nvm-cheat-sheet.md), you are going to find some of its usefull commands.
+
+
+## Start building a new App
+
+
+Inside the desired folder, just run this command on a shell:
+
+```sh
+npx create-react-app *name_of_the_app*   # just add the desired name for the app
+```
+
+This command creates a simple `React` app with a basic structure to serve as a starting point for the development of your application. 
+
+For more information, see [Getting Started with Create React App](./getting-started-create-react-app.md).
