@@ -23,3 +23,5 @@ http://localhost:3000/
 ```
 
 and this should do. 
+
+> **p.s.:** Do not forget to install all package dependencies by runing `npm install` or `yarn`.
